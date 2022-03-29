@@ -57,10 +57,7 @@ function Carousel({ slides, height, autoplay, dots, arrowOpacity, speed }) {
               onTouchMove={(e) => onDrag(e)}
               className="k-react-carousel-box k-width-100"
             >
-              <h1>
-                current: {autoplay ? "true" : "false"}
-                {100 / arrowOpacity}
-              </h1>
+              <h1>{text}</h1>
             </div>
           );
         })}
