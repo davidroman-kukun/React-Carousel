@@ -5,12 +5,16 @@
     position: absolute;
     top: 0;
     transition: left .7s ease-in-out;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
 }
 
 .k-react-carousel-box h1{
     background-color: #CCCCCC80;
     text-align: center;
     padding: 5px;
-    color: #FFF;
+    color: #CCC;
     text-shadow: 3px 3px 3px #00000080;
+    
 }
