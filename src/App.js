@@ -7,25 +7,37 @@ import Carousel from "./components/Carousel";
 const slides = [
   {
     text: "Kitchen Island Size Guidelines",
-    img: "https://content.mykukun.com/wp-content/uploads/2019/06/07120825/kitchen-island-size-guidelines.jpg",
+    img: "https://via.placeholder.com/500x400/AAOO77?text=SlideUno",
   },
   {
     text: "Bathroom Remodel Estimate",
-    img: "https://content.mykukun.com/wp-content/uploads/2021/02/25011604/Bathroom-remodel-estimate.jpg",
+    img: "https://via.placeholder.com/500x400/88FFOO?text=SlideDos",
   },
   {
     text: "Landscape Maintenance",
-    img: "https://content.mykukun.com/wp-content/uploads/2021/02/24113301/landscape-maintenance.jpg",
+    img: "https://via.placeholder.com/500x400/0600FF?text=SlideTres",
   },
-
+  {
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    img: "https://via.placeholder.com/500x400/0699EF?text=SlideCuatro",
+  },
+  {
+    text: "Nam orci nulla, aliquet non.",
+    img: "https://via.placeholder.com/500x400/UNDDCC?text=SlideCinco",
+  },
+  {
+    text: "Donec orci enim, rhoncus aliquet fermentum ac",
+    img: "https://via.placeholder.com/500x400/00CCVV?text=SlideSeis",
+  },
 ];
+
 
 function App() {
   const [height, setHeight] = useState(400);
-  const [autoplay, setAutoplay] = useState(true);
+  const [autoplay, setAutoplay] = useState(false);
   const [dots, setDots] = useState(true);
   const [arrowOpacity, setArrowOpacity] = useState(99);
-  const [speed, setSpeed] = useState(4)
+  const [speed, setSpeed] = useState(2)
 
   return (
     <Container fluid>
